@@ -1,147 +1,154 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-   
-  }
-  body{
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 0;
-  }
+  margin: 0;
+  padding: 0;
+  outline: 0;
  
+}
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+}
+
 li{
-  list-style: none;
+list-style: none;
 }
 
 .menu-header{
- 
-  display: flex;
-  position: fixed; /*Deixa o nosso header fixo*/
-  width: 100%; /*Largura*/
-  padding: 8px; /*Espaçamento dos 4 lados*/
-  padding-bottom: 32px; /*Espaçamento inferior*/
-  padding-top: 32px;/*Espaçamento superior*/
-  height: 60px; /*Altura*/
-  background-color: #b1845f; /*cor de fundo da nossa barra de navegação*/
+
+display: flex;
+position: fixed; 
+width: 100%; 
+padding: 8px; 
+padding-bottom: 32px; 
+padding-top: 32px;
+height: 60px; 
+background-color: #b1845f; 
 }
- 
-  
+
+
 .menu-header nav {
-  display: flex; 
-  justify-content: flex-end; /*Colocando no lado direito da pagina*/
-  width: 100%; /*Largura*/
+display: flex; 
+justify-content: flex-end; 
+width: 100%; 
 }
 
 .lista-menu{
-    display: flex;
-    justify-content: space-evenly; /*Espaçamento entre eles seja igual*/
-    width: 50%; /*Largura*/
-    align-items: center; /*Posicionando no centro*/
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%; 
+  align-items: center; 
 }
 
-/*Pegando os itens com tag a de dentro da nossa lista*/
+
 .lista-menu li>a {
-    color: #FFF; /*Cor do texto*/
-    font-size: 18px; /*Tamanho da fonte*/
-    text-decoration: inherit; /*tirando o sublinhado*/
+  color: #FFF; 
+  font-size: 18px;
+  text-decoration: inherit; 
 }
 
 .principal{
-    height: 100vh; /*Altura*/
-    display: flex;
-    background-color: #fcdeb8; /*Cor do fundo*/
+  height: 100vh; 
+  display: flex;
+  background-color: #fcdeb8; 
+}
+
+.container img {
+max-width:400px;
+max-height:400px;
+width: auto;
+height: auto;
 }
 
 .container {
-  margin-right: auto; /*uma margem automática para todos os lados  */
-  margin-left: auto;
-  margin-top: 75px; /*Margem para cima*/
-  max-width: 960px; /*largura maxima*/
-  padding-right: 10px; /* Espaçamento direito*/
-  padding-left: 10px; /*Espaçamento esquerdo*/
-  width: 100%; /*largura*/
+margin-right: auto;
+margin-left: auto;
+margin-top: 75px; 
+max-width: 960px; 
+padding-right: 10px; 
+padding-left: 10px;
+width: 100%; 
 }
 .subcontainer-principal {
-  /*display, flex-direction e justify content são elementos do flexbox que em conjunto, alinham nossos itens*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 .nome-completo {
-  font-size: 36px;
-  color: #4d3223;
-  font-weight: 700; /*espessura*/
-  height: 45px;
+font-size: 36px;
+color: #4d3223;
+font-weight: 700;
+height: 45px;
 }
 .ocupacao{
-  color: #4d3223;
-  height: 60PX;
+color: #4d3223;
+height: 60PX;
 }
 .texto-sobre {
-  font-size: 20px;
-  line-height: 32px; /*Espaçamento entre as linhas*/
+font-size: 20px;
+line-height: 32px; 
 }
 .article-lista{
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-  margin-bottom: 100px;
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+margin-bottom: 100px;
 }
 
 .topico-principal {
-  font-size: 36px;
-  color: #573f24;
+font-size: 36px;
+color: #573f24;
 }
 
 .lista-item{
-  padding: 32px;
+padding: 32px;
 }
 .lista-item ul li {
-  margin-bottom: 32px;  /*espaçamento entre os items da nossa lista*/
+margin-bottom: 32px;  
 }
 
 .lista-titulo{
- margin-bottom: 5px; 
- font-size: 22px;
- color: #80613e;
- font-weight: 700;
+margin-bottom: 5px; 
+font-size: 22px;
+color: #80613e;
+font-weight: 700;
 }
 
 .lista-local{
-  font-size: 18px;
-  color: #000000;
-  
+font-size: 18px;
+color: #3f86af;
+
 }
 
 .lista-descricao {
-  font-size: 18px;
-  margin-top: 5px;
-  line-height: 20px; /*Espaçamento entre as linhas*/
-  color: #000000;
-  font-weight: 300;
+font-size: 18px;
+margin-top: 5px;
+line-height: 20px; 
+color: #000000;
+font-weight: 300;
 }
 
 .rodape{
-  background-color: #fff0db;
-  height: 250px;
-  display: flex;
-  align-items: center;
+background-color: #fff0db;
+height: 250px;
+display: flex;
+align-items: center;
 
 }
 
 .lista-rodape li{
-  color: #000000;
-  font-weight: 700;
-  font-size: 18px;
-  margin-bottom: 14px;
-  display: flow-root;
-  align-items: center;
-  margin-left: 1;
+color: #000000;
+font-weight: 700;
+font-size: 18px;
+margin-bottom: 14px;
+display: flow-root;
+align-items: center;
+margin-left: 1;
 }
 
 .estilo-icone{
- font-size: 30px;
- margin-right: 10px;
+font-size: 30px;
+margin-right: 10px;
 }
