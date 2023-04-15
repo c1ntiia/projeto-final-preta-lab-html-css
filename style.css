@@ -52,6 +52,13 @@ li{
     background-color: #fcdeb8; /*Cor do fundo*/
 }
 
+.container img {
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+}
+
 .container {
   margin-right: auto; /*uma margem automática para todos os lados  */
   margin-left: auto;
@@ -97,7 +104,7 @@ li{
 
 .lista-item{
   padding: 32px;
-}
+ }
 .lista-item ul li {
   margin-bottom: 32px;  /*espaçamento entre os items da nossa lista*/
 }
@@ -111,7 +118,7 @@ li{
 
 .lista-local{
   font-size: 18px;
-  color: #000000;
+  color: #3f86af;
   
 }
 
