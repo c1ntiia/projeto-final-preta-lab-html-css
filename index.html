@@ -1,34 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="shortcut icon" href="./armin.jpg">
+  <link rel="preconnect" href="https://fonts.google.com/">
+  <link rel="preconnect" href="https://fonts.google.com/" crossorigin>
+  <link href="https://fonts.google.com/specimen/Josefin+Sans" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
   <link rel="stylesheet" href="./style.css">
-  <title>Projeto Final</title>
+  <title>Meu portifólio</title>
 </head>
+
 <body>
-  <div id="menu">
-    <ul>
-      <li><a href="#formacao">Formação</a></li>
-      <li><a href="#portfolio">Portfólio</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>      
-  </div>
-  <div id="perfil">
+  <header class="menu-header">
+    <nav>
+        <ul class="lista-menu">
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contatos</a></li>
+        </ul>    
+    </nav>
+  </header>
 
-  </div>
-  <div id="formacao">
 
-  </div>
-  <div id="portfolio">
+<main>
+  <section class="principal">
+    <article class="subcontainer-principal container">
+      <div>
+        <img src="armin.jpg">
+      </div>
+      <div>
+        <h2 class="nome-completo"><strong>Cíntia Conceição</strong></h2>
+        <h1 class="ocupacao" >Estudante</h1>
+      </div>
+      <div class="texo-sobre">
+          <p>
+            Sou baiana, estudo na UFRB atualmente estou cursando Bacharelado em Energia e Sustentabilidade, e pretendo seguir área de propgramação ápos me formar
+          </p>
+      </div>
+    </article>
+  </section>
 
-  </div>
-  <div id="contato">
 
-  </div>
+<section id="formacao">
+  <article class="container article-lista">
+    <div>
+      <h3 class="topico-principal">Formação</h3>
+    </div>
+
+    <div class="lista-item">
+      <ul>
+        <li>
+          <p class="lista-titulo"><strong>Ciclo formativo</strong><br></p>
+          <p class="lista-descricao">
+            <strong>PretaLab</strong>
+            <br><a href="https://www.pretalab.com/" target="_blank" class="lista-local">PretaLab</a><br>
+            Projeto que visa a ingressão e permenência de mulheres pretas e índigenas na área da programação. Com foco na aprendizagem de JavaScript, HTML e CSS.<br>
+            <br><strong>Semana ImersãoDev</strong>
+            <br><a href="https://www.alura.com.br/" target="_blank" class="lista-local">Alura</a><br>
+            Uma semana de aprendizagem em HTML e CSS, disponibilizado pela Alura
+            </p>
+        </li>
+
+        <li>
+            <p class="lista-titulo"><strong>Graduação</strong></p>
+            <a href="https://ufrb.edu.br/portal/" target="_blank" class="lista-local">UFRB</a>
+            <p class="lista-descricao">
+              Bacharelado Interdisciplinar em Energia e Sustentabilidade
+            </p>
+        </li>
+      </ul>  
+    </div> 
+  </article>
+</section>
+
+<section id="portifolio">
+  <article class="container article-lista">
+      <div>
+        <h3 class="topico-principal">Pórtifolio</h3>
+      </div>
+     
+    <div class="lista-item">
+      <ul>
+        <li>
+          <p class="lista-titulo"><strong>Calculadora em JavaScript</strong></p>
+          <p class="lista-descricao">            
+            Calculadora prgramada em linguagem JavaScript, para fim avaliativo do módulo I de JavaScript, pela PretLab<br>
+            <br><a href="https://www.pretalab.com/" target="_blank" class="lista-local">Calculadora</a><br>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </article>
+</section>
+
+</main>
+
+
+<footer class="rodape">
+  <div class="coontainer">
+    <ul id="contato" class="lista-rodape">
+      <li><i class="fab fa-linkedin estilo-icone"></i>scintia280@gmail.com</li>
+      <li href="linkedin.com/in/cíntia-conceição-a2a2781b9"><i class="fas fa-envelope-square estilo-icone"></i>Cíntia Conceição</li>
+      <li href="https://github.com/c1ntiia"><i class="fab fa-github-square estilo-icone"></i>@c1ntiia</li>
+
+    </ul>
+</div>
+
+</footer>
+
 </body>
 </html>
