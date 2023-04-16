@@ -110,13 +110,10 @@ color: #573f24;
 }
 
 .lista-item{
-<<<<<<< HEAD
 padding: 32px;
-}
-=======
-  padding: 32px;
+padding: 32px;
  }
->>>>>>> 69593663a8c2a68e8263d791693fc1f831946a53
+
 .lista-item ul li {
 margin-bottom: 32px;  
 }
@@ -132,12 +129,9 @@ font-weight: 700;
 <<<<<<< HEAD
 font-size: 18px;
 color: #3f86af;
-
-=======
-  font-size: 18px;
-  color: #3f86af;
+font-size: 18px;
+color: #3f86af;
   
->>>>>>> 69593663a8c2a68e8263d791693fc1f831946a53
 }
 
 .lista-descricao {
